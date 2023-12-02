@@ -1,0 +1,801 @@
+
+/*public style*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.clrfix{
+    clear: both;
+}
+
+/*start header*/
+.header{
+    background-image: url('../img/shutterstock_277750193.jpg') ;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.navbar{
+    position: fixed;
+    padding-top: 10px;
+    width: 100%;
+    top: 0;
+}
+
+.nav{
+    float: left;
+    width: 50%;
+    margin-top: 25px;
+}
+
+.logo{
+    float: left;
+    width: 50%;
+}
+
+.logo img{
+    padding-top: 5px;
+    padding-right: 300px;
+    width: 18%;
+}
+
+.nav ul li{
+display: inline-block;
+width: 70px;
+}
+
+.nav ul li a{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+}
+
+.header-content{
+    padding-top: 120px;
+    color: white;
+}
+
+.header-content h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+}
+
+.header-content p{
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 35px;
+}
+
+.header-content button{
+    padding: 15px 28px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.header-content .learn-more{
+    background-color: #C1AB84;
+    color: #FFF;
+    cursor: pointer;
+
+}
+
+.learn-more:hover{
+    background-color: white;
+    color: black;
+}
+
+.header-content .Book-a-Visit{
+    cursor: pointer;
+}
+
+.overlay{
+    background-color:rgba(0, 0, 0, 0.2) ;
+    height: 100vh;
+}
+
+.icons{
+    background-color: #FFF;
+    height: 86px;
+    width: 42px;
+    position: fixed;
+    top: 200px;
+    right: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+.see-Demo-Sites-icon{
+    height: 50%;
+    font-size: 20px;
+    padding-top: 10px;
+    color: rgb(104, 104, 104);
+    cursor: pointer;
+    
+}
+
+.Buy-Engage-Now-icon{
+    height: 50%;
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+    cursor: pointer;
+}
+
+/*end header*/
+.header .up{
+    display: none;
+}
+
+.scrollUp .up{
+    background-color: rgba(0,0,0,0.6);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    height: 40px;
+    width: 40px;
+    color: #FFF;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+    border-radius: 50%;
+    font-weight: 300;
+    opacity: .5;
+}
+.scrollUp .up:hover{
+    opacity: 1;
+}
+.scrollUp i{
+    font-size: 15px;
+    line-height: 15px;
+}
+/*start about section*/
+
+.about{
+    padding-top: 100px;
+    float: left;
+    width: 100%;
+}
+
+
+.img-about{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.about-resturant{
+    float: left;
+    width: 50%;
+    padding-top: 100px;
+}
+
+.about-resturant h1{
+    color: #253048;
+    font-family: 'Alegreya', serif;
+    font-size: 36px; 
+    font-weight: 400;
+}
+
+.about-resturant h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    color: rgb(193, 171, 132);
+}
+
+.paragraph{
+    width: 565.2px;
+    height: 133.9px;
+    padding-top: 15px;
+    color: #686868;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 30px;
+}
+
+
+.icon{
+    float: left;
+    width: 8%;
+}
+
+.text{
+    float: left;
+    width: 90%; 
+}
+
+.icon-and-text i{
+    background-color: rgb(193, 171, 132) ;
+    color: #FFF;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 53px;
+    font-size: 24px;
+}
+.icon-and-text{
+    padding-top: 10px;
+    line-height: 63px;
+}
+
+.icon-and-text1{
+    float: left;
+    width: 100%;
+}
+
+
+.icon{
+    float: left;
+    width: 8%;
+}
+.text{
+    float: left;
+    width: 90%;
+}
+
+
+
+.icon-and-text .text{
+    line-height: 55px;
+    color: rgb(104,104, 104);
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* end about section */
+
+/*start Reviewers section*/
+
+.Rtext{
+    float: left;
+    width: 50%;
+    padding-left: 100px;
+    box-sizing: border-box;
+
+}
+
+.Rimg{
+    float: left;
+    width: 50%;
+}
+
+.Rtext h2{
+    color: #253048;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    padding-bottom: 15px;
+}
+.Rtext h3{
+    color: rgb(193,171 ,132);
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 50px;
+
+}
+
+ .Rparag{
+    width:565.2px ;
+    height:133.9px ;
+    color: rgb(104, 104, 104);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 33.48px;
+    padding-bottom: 20px;
+}
+
+.Reviewers{
+    background-color: rgb(248, 248, 248);
+    height: 550px;
+    float: left;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.iii{
+    font-size: 18px;
+    float: left;
+    width: 6%;
+    padding-top: 5px;
+    line-height: 27px;
+}
+.icon-list li p{
+    line-height: 45px;
+    color: rgb(104, 104, 104);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Alegreya Sans', sans-serif;
+    float: left;
+    width: 90%;
+
+}
+
+
+/*end Reviewers section*/
+
+.back-ground{
+    background-image: url('../img/shutterstock_280369721.jpg');
+    height: 500px;
+    float: left;
+    width: 100%;
+   background-position-x: 50%;
+   background-position-y: 50%;
+   box-sizing:  border-box;
+   background-attachment: fixed;
+   background-clip: border-box;
+   background-size: cover;
+   background-origin: padding-box;
+   transition-duration: 0.5s;
+   transition: background-position 0.5s ease-in-out;
+    
+}
+
+
+.menu{
+    float: left;
+    width: 100%;
+    padding-top: 75px;
+    position: relative;
+}
+.menu h2 {
+    text-align: center;
+    box-sizing: border-box;
+    color: rgb(37,48 ,72 );
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49.68px;
+    font-family: 'Alegreya', serif;
+
+}
+.menu h3{
+    text-align: center;
+    box-sizing: border-box;
+    color: rgb(193,172,132);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38.64px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.dishes{
+    float: left;
+    width: 100%;
+    padding-top: 45px;
+}
+
+.dish{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+
+
+ .menu-button{
+    text-align: center;
+    float: left;
+    width: 100%;
+    padding-top: 40px;    
+    
+
+}
+
+.menu-button button{
+    padding:15px 25px ;
+    color: #FFF;
+    background-color:rgb(193,172,132);
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Alegreya Sans', sans-serif;
+    border-radius: 5px;
+    border: #C1AB84;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+
+
+
+
+
+.dish h4{
+    color: rgb(37, 48, 72);
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    line-height: 28.98px;
+    text-align: center;
+}
+
+.dish p{
+    color: rgb(104, 104, 104);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 33.48px;
+    text-align: center;
+}
+
+/*start location section*/
+
+.location{
+    float: left;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.TLocation{
+    float: left;
+    width: 50%;
+
+}
+.mapLocation{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.paragraph{
+    width: 565.2px;
+    height: 133.9px;
+    padding-top: 15px;
+    color: #686868;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 30px;
+}
+
+
+.icon{
+    float: left;
+    width: 8%;
+}
+
+.text{
+    float: left;
+    width: 90%; 
+}
+
+.about-resturant .icon-and-text i{
+    background-color: rgb(193, 171, 132) ;
+    color: #FFF;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+    font-size: 18px;
+}
+.icon-and-text{
+    padding-top: 10px;
+    line-height: 63px;
+}
+
+.icon-and-text1{
+    float: left;
+    width: 100%;
+}
+
+
+.icon{
+    float: left;
+    width: 10%;
+}
+.text{
+    float: left;
+    width: 90%;
+}
+
+
+
+.icon-and-text .text{
+    line-height: 55px;
+    color: rgb(104,104, 104);
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.TLocation{
+    float: left;
+    width: 50%;
+    padding-left: 150px;
+    box-sizing: border-box;
+
+}
+
+.TLocation h2{
+    color: #253048;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    line-height: 49.68px;
+}
+
+/*end location section*/
+
+/*start footer section*/
+
+.footer{
+    float: left;
+    width: 100%;
+    background-color: #403d38;
+    height: 357px;
+    padding-top: 50px;
+}
+
+.About-us{
+    float: left;
+    width: 25%;
+}
+.About-us h2{
+    color: #FFF;
+    font-size: 20px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    line-height: 27.6px;
+    text-align: center;
+}
+.About-us p{
+    color: rgb(150,150,150);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 29.76px;
+    box-sizing: border-box;
+}
+.par{
+    padding-left: 150px;
+}
+.About-us .p1{
+    width: 276.25px;
+    height: 148.75px;
+    margin-bottom: 20px;
+
+}
+.About-us .p2{
+    width: 276.25px;
+    height: 59.5; 
+}
+
+
+/* --------------------*/
+
+.Useful-Links{
+    float: left;
+    width: 25%;
+}
+
+.Useful-Links .links{
+    width: 276.25px;
+    height: 238.1px;
+    padding-left: 100px;
+}
+
+.Useful-Links h2{
+    color: #FFF;
+    font-size: 20px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    line-height: 27.6px;
+    text-align: center;
+}
+.Useful-Links .in-Useful-Links{
+    padding-left: 89px;
+
+}
+.Useful-Links .in-Useful-Links i{
+    font-size: 10px;
+    font-weight: 900;
+    line-height:40px ;
+    color: #A9A9A9;
+}
+
+.Useful-Links .in-Useful-Links a{
+    font-size: 16px;
+    color: #A9A9A9;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    cursor: pointer; 
+    line-height: 33.48px;
+}
+.Useful-Links .vip{
+    border-bottom: .8px solid;
+    border-bottom-color: rgba(255, 255, 255, 0.05) ;
+}
+
+/*----------------------------*/
+
+.Opening-Hours{
+    float: left;
+    width: 25%;
+}
+.Opening-Hours .links{
+    width: 276.25px;
+    height: 334.25px;
+    padding-left: 0;
+}
+
+.Opening-Hours .in-opening-hours{
+    padding-left: 75px;
+}
+.Opening-Hours h2{
+    color: #FFF;
+    font-size: 20px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    line-height: 27.6px;
+    text-align: center;
+}
+.Opening-Hours  i{
+    font-size: 10px;
+    font-weight: 900;
+    line-height:40px ;
+    color: #A9A9A9;
+}
+.Opening-Hours p{
+    color: #A9A9A9;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    line-height: 33.48px;
+}
+
+.Opening-Hours .iconn{
+    float: left;
+    width: 10%;
+}
+.Opening-Hours .textt{
+    float: left;
+    width: 90%;
+}   
+
+.TandI{
+    float: left;
+    width: 100%;
+}
+
+.Opening-Hours .vip{
+    border-bottom: .8px solid ;
+    border-bottom-color: rgba(255,255,255,0.05);
+}
+
+
+/*-------------------*/
+
+.Contact-Details{
+    float: left;
+    width: 25%;
+}
+
+
+.Contact-Details h2{
+    color: #FFF;
+    font-size: 20px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    line-height: 27.6px;
+}
+
+.Contact-Details .iconn{
+    float: left;
+    width: 10%;
+    color: rgb(150,150,150);
+    font-size: 15px;
+    line-height: 73px;
+}
+
+.Contact-Details .textt{
+    float: left;
+    width: 90%;
+}
+
+.Contact-Details .text1{
+    padding-top: 15px;
+    padding-bottom: 25px;
+    color: rgb(150, 150, 150);
+}
+
+.Contact-Details .text2{
+    padding-top: 16px;
+    line-height: 44px;
+    
+}
+
+.Contact-Details .text2 a{
+    color: rgb(150, 150, 150);
+}
+
+.Contact-Details .vip{
+        border-bottom: .8px solid;
+        border-bottom-color: rgba(255, 255, 255, 0.05) ;
+
+}
+/*end footer section*/
+
+ .end{
+    float: left;
+    width: 100%;
+    background-color: #353330 ;
+    text-align: center;
+    height: 474px;
+}
+.end img{
+    padding-bottom: 25px;
+}
+.end p{
+    color: #777;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Alegreya Sans', sans-serif;
+    padding-bottom: 20px;
+}
+
+.end a{
+    color: rgb(140, 138, 134);
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    
+}
+.end a i{
+    padding: 20px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 13px;
+    font-size: 24px;
+    color: #777;
+    background-color: rgb(72, 69, 64) ;
+}
+
+.end .face:hover{
+    background-color: rgb(58, 58, 150);
+    color: #FFF;
+}
+.end .insta:hover{
+    background-color: rgb(45, 45, 124);
+    color: #FFF;
+}
+
+.end .tumb:hover{
+    color: #FFF;
+    background-color: rgb(64, 70, 151);
+}
+
+.end .twit:hover{
+    color: #FFF;
+    background-color: rgb(99, 133, 244);
+}

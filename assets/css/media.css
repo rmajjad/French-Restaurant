@@ -1,0 +1,192 @@
+@media (max-width: 576px) {
+   
+    .clrfix{
+        clear: both;
+    }
+   
+    .overlay{
+        width: 100%;
+    }
+ 
+    .nav{
+        float: none;
+        width: 100%;
+        position: absolute;
+        top: 40px;
+        left: 143px;
+        z-index: 1;
+        text-align: center;
+    }
+    .logo{
+        float: none;
+        width: 100%;
+        position: absolute;
+        top: 20px;
+        left: 242px;
+        text-align: center;
+    }
+    .header .logo img{
+        width: 93px;
+    }
+
+   
+    .header-content img{
+        width: 35%;
+        
+    }
+    .header .header-content h1{
+        font-size: 35px;
+        margin-bottom: 10px;
+        
+    }
+    .header .header-content{
+        position: absolute;
+        top: 6px;
+        right: 90px;
+    }
+    .header .header-content p{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .header .header-content button{
+        padding: 10px 17px;
+        font-size: 14px;  
+      }
+    
+ 
+    .header .icons{
+       
+        right: 20px;
+    }
+    
+   body .scrollUp .up{
+        right: 46px;
+        bottom: 20px;
+    }
+    .about .img-about{
+        width: 100%;
+    }
+    .about .about-resturant{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .about .about-resturant .paragraph{
+        width: 546px;
+        height: 133.9px;
+    }
+
+    .about .about-resturant .icon-and-text .icon i{
+        height: 50px;
+        width: 50px;
+        line-height: 53px;
+        font-size: 24px;
+    }
+    .Reviewers .Rtext{
+        float: none;
+        width: 100%;
+        padding-left: 20px;
+        padding-bottom: 50px;
+
+    }
+
+    .Reviewers .Rtext .Rparag{
+        width: 546px;
+        height: 133.9px;
+    }
+
+    .Reviewers .Rimg{
+        float: none;
+        width: 100%;
+        padding-bottom: 400px;
+    }
+
+    
+
+
+    .back-ground{
+        float: none;
+        padding-top: 500px;
+        background-position: 50% 0;
+    }
+
+    .menu .dishes .dish{
+        width: 100%;
+    }
+
+    .menu .dishes .dish img{
+        width: 85%;
+    }
+
+    .location .TLocation{
+        width: 100%;
+        padding-left: 22px;
+        padding-bottom: 73px;
+        padding-top: 45px;
+    }
+    .location .TLocation .icon-and-text .icon-and-text1 .icon{
+        width: 13%;
+    }
+
+    .location .TLocation .icon-and-text .icon-and-text1 .icon i{
+        height: 35px;
+        width: 35px;
+        line-height: 39px;
+        font-size: 16px;
+    }
+
+    .location .TLocation .icon-and-text .icon-and-text1 .text{
+        width: 80%;
+    }
+
+    .location .mapLocation{
+        width: 100%;
+    }
+   
+
+    .location .mapLocation iframe{
+        width: 95%;
+    }
+    
+    body .footer{
+        height: 1211.85px;
+    }
+
+     .footer .about-us {
+        width: 100%;
+    }
+    .footer .about-us .p1{
+        width: 542.25px;
+        height: 89.25px;
+    }
+
+    .footer .about-us .p2{
+        width: 542.25px;
+    }
+    .footer .about-us .par{
+        padding-left: 30px;
+    }
+   
+    .footer .Useful-Links{
+        width: 100%;
+    }
+
+    .footer .Useful-Links .links{
+        padding-left: 0%;
+    }
+
+    .footer .Opening-Hours{
+        width: 100%;
+    }
+
+    .footer .Contact-Details{
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .end img{
+        padding-top: 50px;
+    }
+
+
+}
